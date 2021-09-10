@@ -1,0 +1,44 @@
+﻿
+# Created by https://www.toptal.com/developers/gitignore/api/vuejs,visualstudiocode,git
+# Edit at https://www.toptal.com/developers/gitignore?templates=vuejs,visualstudiocode,git
+
+### Git ###
+# Created by git for backups. To disable backups in Git:
+# $ git config --global mergetool.keepBackup false
+*.orig
+
+# Created by git when using merge tools for conflicts
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
+
+### VisualStudioCode ###
+app/.vscode/*
+!app/.vscode/settings.json
+!app/.vscode/tasks.json
+!app/.vscode/launch.json
+!app/.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+### Vuejs ###
+# Recommended template: Node.gitignore
+
+client_js/node_modules/
+client_js/dist/
+client_ts/node_modules/
+client_ts/dist/
+
+# End of https://www.toptal.com/developers/gitignore/api/vuejs,visualstudiocode,git
